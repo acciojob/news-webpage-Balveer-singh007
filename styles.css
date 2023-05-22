@@ -8,12 +8,13 @@ body{
 	height:60px;
 	color:white;
 	padding:10px;
+	text-align:center;
 }
 nav{
 	text-align:center;
 	
 }
-.block-1,.block-2,.block-3{
+.latest-news-section,.main-article-section,.pictorial-news-section{
 	background-color:white;
 	border-radius:4px;
 	border: 10px solid #f5f5f5;
@@ -24,15 +25,15 @@ main{
 	display:flex;
 	justify-content:center;
 }
-.block-1{
+.latest-news-section{
 	width: 20%;
 	height: 30vh;
 }
-.block-2{
+.main-article-section{
 	width: 55%;
 	height: 40vh;
 }
-.block-3{
+.pictorial-news-section{
 	width: 20%;
 }
 img{
